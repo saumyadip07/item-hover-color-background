@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+    margin: 20px 10% ;
+    
+    
+
+  
+}
+
+.box{
+    height: 280px;
+    width: 400px;
+    border: 1px solid white;
+    background-color:rgb(20, 130, 138);
+    border-radius: 20px;
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+    font-size: 1.5rem;
+    
+
+
+
+   
+
+}
+
+.box-pattern{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    right:-70px ;
+    top: -70px;
+    transition: transform 0.8s ease-in ;
+    
+
+}
+
+.box:hover .box-pattern{
+       
+    transform: scale(20);
+       
+}
+
+#box2 .box-pattern{
+ 
+    background-color: orange;
+}
+
+
+#box3 .box-pattern{
+ 
+    background-color: blue;
+}
+
+
+#box4 .box-pattern{
+ 
+    background-color: green;
+}
+
+
+#box5 .box-pattern{
+ 
+    background-color:brown;
+}
+
+
+#box6.box-pattern{
+ 
+    background-color: purple;
+}
+
+
+#box7 .box-pattern{
+ 
+    background-color: darkgrey;
+}
+
+
+#box8 .box-pattern{
+ 
+    background-color:lightcyan;
+}
+.box-title,.box-date{
+    
+    color: black;
+    position: relative;
+}
+
+/* .box-date{
+    position: relative;
+    margin-bottom: 25px;
+} */
+
